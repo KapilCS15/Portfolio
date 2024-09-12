@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+.title{
+  margin-left: 10px;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.title span{
+  color: #9c97f1;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
