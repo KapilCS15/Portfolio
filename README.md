@@ -3,10 +3,13 @@
   <a href="https://my-webprofile.netlify.app" target="_blank">Kapil.Portfolio</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" /> <br/>
+  <img alt="Demo" src="./Images/readme-images" /> <br/>
 
-  <img alt="Demo" src="./Images/readme-img2.png" />
-  
+  <img alt="Demo" src="./Images/readme-images1.png" /> <br/>
+
+  <img alt="Demo" src="./Images/readme-images2.png" />
+
+
 </div>
 
 <br/>
