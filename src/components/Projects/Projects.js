@@ -23,12 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={movie}
+              imgPath={Chapterverse}
               isBlog={false}
-              title="The CinePhile"
-              description="A web application that leverages the TMDB (The Movie Database) API to help users effortlessly discover trending movies. The platform will offer an immersive experience by showcasing movie ratings, overviews, and trailers. The goal was to provide a user-friendly interface where movie enthusiasts can explore and stay updated on the latest popular films."
-              ghLink="https://github.com/KapilCS15/movie-app"
-              demoLink="moviexyz-app.netlify.app"
+              title="Chapter & Verse — Async Book & Movie Club Tracke"
+              description="A web app (Django, DRF, JavaScript) that lets reading/watching groups vote on content via ranked-choice voting and discuss it asynchronously without spoilers, using progress-based content gating."
+              ghLink="https://github.com/KapilCS15/Chapter-and-verse"
+              demoLink="https://chapter-and-verse-1.onrender.com/"
             />
           </Col>
 
@@ -56,11 +56,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={surway}
+              imgPath={movie}
               isBlog={false}
-              title="Surway+"
-              description="A Web Application that facilitates user participation in online polls. It focuses on providing an intuitive and user-friendly interface where users can easily take part in polls. Additionally, the application features real-time graphical representations of poll results, enhancing user engagement and providing immediate feedback."
-              ghLink="https://github.com/KapilCS15/surway-polls"             
+              title="The CinePhile"
+              description="A web application that leverages the TMDB (The Movie Database) API to help users effortlessly discover trending movies. The platform will offer an immersive experience by showcasing movie ratings, overviews, and trailers. The goal was to provide a user-friendly interface where movie enthusiasts can explore and stay updated on the latest popular films."
+              ghLink="https://github.com/KapilCS15/movie-app"
+              demoLink="moviexyz-app.netlify.app"
+
             />
           </Col>
 
@@ -77,12 +79,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={netflix}
+              imgPath={Currentaffairs}
               isBlog={false}
-              title="Netflix lookalike"
-              description="This is just a Netflix streaming service starting page replica, based on mainly HTML and CSS. The goal is to create a visually accurate replica of the Netflix interface, showcasing a clean and modern design. "
-              ghLink="https://github.com/KapilCS15/netflix-clone"
-              demoLink="https://net-clones.netlify.app/"
+              title="Current Affairs"
+              description="A Modern, responsive (UI) for a restaurant's front-end using React.js and Tailwind CSS. The application will offer users the ability to browse the restaurant's menu and enjoy a seamless user experience enhanced with animations. The goal was to create an intuitive, visually appealing, and simple interface that works well on various devices."
+              ghLink="https://github.com/KapilCS15/current-affairs"
+              demoLink="cuisine-culture.netlify.app"
             />
           </Col>
         </Row>
