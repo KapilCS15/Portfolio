@@ -8,8 +8,8 @@ import movie from "../../Assets/Projects/movie.png";
 import fitnesslab from "../../Assets/Projects/fitness-lab.jpg"
 import countryinfo from "../../Assets/Projects/countryinfo.jpg"
 import restaurant from "../../Assets/Projects/restaurant.png";
-import Chapterverse from "../../Assets/Projects/Chapter and Verse.png";
-import Currentaffairs from "../../Assets/Projects/Current Affairs.png";
+import chapterverse from "../../Assets/Projects/Chapterverse.png";
+import currentaffairs from "../../Assets/Projects/Currentaffairs.png";
 
 function Projects() {
   return (
@@ -25,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Chapterverse}
+              imgPath={chapterverse}
               isBlog={false}
               title="Chapter & Verse — Async Book & Movie Club Tracke"
               description="A web app (Django, DRF, JavaScript) that lets reading/watching groups vote on content via ranked-choice voting and discuss it asynchronously without spoilers, using progress-based content gating."
@@ -81,7 +81,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Currentaffairs}
+              imgPath={currentaffairs}
               isBlog={false}
               title="Current Affairs"
               description="A Modern, responsive (UI) for a restaurant's front-end using React.js and Tailwind CSS. The application will offer users the ability to browse the restaurant's menu and enjoy a seamless user experience enhanced with animations. The goal was to create an intuitive, visually appealing, and simple interface that works well on various devices."
