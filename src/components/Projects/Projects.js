@@ -8,6 +8,8 @@ import movie from "../../Assets/Projects/movie.png";
 import fitnesslab from "../../Assets/Projects/fitness-lab.jpg"
 import countryinfo from "../../Assets/Projects/countryinfo.jpg"
 import restaurant from "../../Assets/Projects/restaurant.png";
+import Chapterverse from "../../Assets/Projects/Chapter and Verse.png";
+import Currentaffairs from "../../Assets/Projects/Current Affairs.png";
 
 function Projects() {
   return (
